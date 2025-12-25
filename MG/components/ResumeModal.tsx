@@ -68,7 +68,7 @@ const ResumeModal: React.FC<ResumeModalProps> = ({ isOpen, onClose, profileImage
                       <div className="space-y-4 text-sm">
                          <div className="p-2 bg-slate-100 dark:bg-slate-900 rounded-md border-l-4 border-slate-800 dark:border-slate-600 transition-colors">
                             <p className="font-bold text-slate-800 dark:text-white">St. Andrews Institute of Technology, Gurugram</p>
-                            <p className="text-slate-600 dark:text-slate-400">Master of Computer Applications (MCA)</p>
+                            <p className="text-slate-600 dark:text-slate-400">Master of Business Administration (MBA)</p>
                             <span className="inline-block mt-1 px-2 py-0.5 bg-slate-800 dark:bg-slate-600 text-white text-[10px] font-bold uppercase rounded transition-colors">Pursuing</span>
                          </div>
                          <div>
