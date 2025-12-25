@@ -221,7 +221,7 @@ const Contact: React.FC = () => {
           
           <div className="flex flex-col items-center md:items-end gap-2">
               <p className="text-[10px] text-slate-600 dark:text-slate-700 uppercase tracking-widest font-bold transition-colors">
-                  Developed by <a href="https://parasdev.xyz" target="_blank" rel="noopener noreferrer" className="text-slate-500 hover:text-gold-500 transition-colors">PARAS AGARWAL</a>
+                  Developed by <a target="_blank" rel="noopener noreferrer" className="text-slate-500 hover:text-gold-500 transition-colors">PARAS AGARWAL</a>
               </p>
           </div>
         </div>
