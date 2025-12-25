@@ -55,7 +55,7 @@ const experiences: ExperienceItem[] = [
 
 const education: EducationItem[] = [
   {
-    degree: 'Master of Computer Applications (MCA)',
+    degree: 'Master of Business Administration (MBA)',
     institution: 'St. Andrews Institute of Technology, Gurugram',
     year: 'Current'
   },
