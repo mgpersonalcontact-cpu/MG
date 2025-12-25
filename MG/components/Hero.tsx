@@ -3,7 +3,7 @@ import { ArrowDown, Users, BookOpen, Upload, Camera, FileText, ChevronRight } fr
 import ResumeModal from './ResumeModal';
 
 const Hero: React.FC = () => {
-  const [imageSrc, setImageSrc] = useState<string>('https://i.postimg.cc/63pCgH9J/Screenshot_2025_12_14_at_12_17_18_AM.png');
+  const [imageSrc, setImageSrc] = useState<string>('https://i.postimg.cc/XvsF8BJ3/Screenshot-2025-12-26-at-2-14-45-AM.png');
   const [imgError, setImgError] = useState<boolean>(false);
   const [isResumeOpen, setIsResumeOpen] = useState<boolean>(false);
   const fileInputRef = useRef<HTMLInputElement>(null);
