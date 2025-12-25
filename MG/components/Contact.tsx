@@ -55,7 +55,7 @@ const Contact: React.FC = () => {
           {/* Contact Info Column */}
           <div className="flex flex-col justify-between">
             <div>
-              <div className="inline-block px-4 py-1.5 rounded-full bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-gold-600 dark:text-gold-500 text-xs font-bold tracking-widest uppercase mb-6 transition-colors">
+              <div className="inline-block px-4 py-1.5 rounded-full bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-gold-600 dark:text-gold-500 text-xs font-bold tracking-wider mb-6">
                 Get In Touch
               </div>
               <h2 className="text-4xl md:text-5xl font-serif font-bold text-slate-900 dark:text-white mb-6 leading-tight transition-colors">
@@ -68,8 +68,8 @@ const Contact: React.FC = () => {
               </p>
               
               <div className="space-y-6 mb-12">
-                <a href="mailto:miteshgupta1712@gmail.com" className="flex items-center gap-5 p-4 rounded-xl bg-white dark:bg-slate-900/30 border border-slate-200 dark:border-slate-800/50 hover:bg-slate-50 dark:hover:bg-slate-900 hover:border-gold-500/30 transition-all group shadow-sm dark:shadow-none">
-                  <div className="w-12 h-12 rounded-full bg-gradient-to-br from-slate-100 to-slate-200 dark:from-slate-800 dark:to-slate-900 flex items-center justify-center border border-slate-200 dark:border-slate-700 group-hover:border-gold-500 transition-colors shadow-lg">
+                <a href="mailto:miteshgupta1712@gmail.com" className="flex items-center gap-5 p-4 rounded-xl bg-white dark:bg-slate-900/30 border border-slate-200 dark:border-slate-800/50 hover:bg-slate-50 transition-colors">
+                  <div className="w-12 h-12 rounded-full bg-gradient-to-br from-slate-100 to-slate-200 dark:from-slate-800 dark:to-slate-900 flex items-center justify-center border border-slate-200">
                     <Mail size={20} className="text-slate-500 dark:text-slate-400 group-hover:text-gold-500 transition-colors" />
                   </div>
                   <div>
@@ -78,8 +78,8 @@ const Contact: React.FC = () => {
                   </div>
                 </a>
                 
-                <a href="tel:+919306304224" className="flex items-center gap-5 p-4 rounded-xl bg-white dark:bg-slate-900/30 border border-slate-200 dark:border-slate-800/50 hover:bg-slate-50 dark:hover:bg-slate-900 hover:border-gold-500/30 transition-all group shadow-sm dark:shadow-none">
-                  <div className="w-12 h-12 rounded-full bg-gradient-to-br from-slate-100 to-slate-200 dark:from-slate-800 dark:to-slate-900 flex items-center justify-center border border-slate-200 dark:border-slate-700 group-hover:border-gold-500 transition-colors shadow-lg">
+                <a href="tel:+919306304224" className="flex items-center gap-5 p-4 rounded-xl bg-white dark:bg-slate-900/30 border border-slate-200 dark:border-slate-800/50 hover:bg-slate-50 transition-colors">
+                  <div className="w-12 h-12 rounded-full bg-gradient-to-br from-slate-100 to-slate-200 dark:from-slate-800 dark:to-slate-900 flex items-center justify-center border border-slate-200">
                     <Phone size={20} className="text-slate-500 dark:text-slate-400 group-hover:text-gold-500 transition-colors" />
                   </div>
                   <div>
@@ -89,7 +89,7 @@ const Contact: React.FC = () => {
                 </a>
                 
                 <div className="flex items-center gap-5 p-4 rounded-xl bg-white dark:bg-slate-900/30 border border-slate-200 dark:border-slate-800/50 group shadow-sm dark:shadow-none transition-colors">
-                  <div className="w-12 h-12 rounded-full bg-gradient-to-br from-slate-100 to-slate-200 dark:from-slate-800 dark:to-slate-900 flex items-center justify-center border border-slate-200 dark:border-slate-700 group-hover:border-gold-500 transition-colors shadow-lg">
+                  <div className="w-12 h-12 rounded-full bg-gradient-to-br from-slate-100 to-slate-200 dark:from-slate-800 dark:to-slate-900 flex items-center justify-center border border-slate-200">
                     <MapPin size={20} className="text-slate-500 dark:text-slate-400 group-hover:text-gold-500 transition-colors" />
                   </div>
                   <div>
@@ -102,10 +102,10 @@ const Contact: React.FC = () => {
 
             <div className="flex flex-col sm:flex-row gap-6 items-start sm:items-center pt-8 border-t border-slate-200 dark:border-slate-900 transition-colors">
                 <div className="flex gap-4">
-                    <a href="#" className="w-12 h-12 rounded-full bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 flex items-center justify-center text-slate-500 dark:text-slate-400 hover:text-white hover:bg-gold-600 hover:border-gold-600 transition-all duration-300 shadow-lg group">
+                    <a href="#" className="w-12 h-12 rounded-full bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 flex items-center justify-center text-slate-500 dark:text-slate-400 transition-colors">
                         <Linkedin size={20} className="group-hover:scale-110 transition-transform" />
                     </a>
-                    <a href="https://www.instagram.com/mg170_/" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 flex items-center justify-center text-slate-500 dark:text-slate-400 hover:text-white hover:bg-pink-600 hover:border-pink-600 transition-all duration-300 shadow-lg group">
+                    <a href="https://www.instagram.com/mg170_/" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 flex items-center justify-center text-slate-500 dark:text-slate-400 transition-colors">
                         <Instagram size={20} className="group-hover:scale-110 transition-transform" />
                     </a>
                 </div>
@@ -113,6 +113,7 @@ const Contact: React.FC = () => {
                 <div className="px-5 py-3 bg-white dark:bg-slate-900/50 rounded-lg border border-slate-200 dark:border-slate-800 flex flex-col justify-center transition-colors shadow-sm dark:shadow-none">
                     <h3 className="text-slate-900 dark:text-white font-bold text-sm transition-colors">IC 38 Certified</h3>
                     <p className="text-slate-500 text-xs transition-colors">Professional Financial Advisor</p>
+                    <p className="text-slate-500 text-xs mt-1 transition-colors">Education: Master of Business Administration (MBA)</p>
                 </div>
             </div>
           </div>
@@ -135,7 +136,7 @@ const Contact: React.FC = () => {
                       <p className="text-slate-600 dark:text-slate-400 max-w-xs mb-8 transition-colors">Thank you for reaching out. I'll be in touch with you shortly.</p>
                       <button 
                           onClick={() => setStatus('idle')}
-                          className="px-8 py-3 bg-slate-200 dark:bg-slate-800 hover:bg-slate-300 dark:hover:bg-slate-700 text-slate-900 dark:text-white rounded-full text-sm font-bold transition-all hover:scale-105 active:scale-95 border border-slate-300 dark:border-slate-700"
+                          className="px-8 py-3 bg-slate-200 dark:bg-slate-800 hover:bg-slate-300 dark:hover:bg-slate-700 text-slate-900 dark:text-white rounded-full text-sm font-bold transition-all"
                       >
                           Send another
                       </button>
@@ -151,7 +152,7 @@ const Contact: React.FC = () => {
                               required
                               value={formState.name}
                               onChange={handleChange}
-                              className="w-full bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 rounded-lg px-4 py-4 text-slate-900 dark:text-white placeholder-slate-400 dark:placeholder-slate-700 focus:outline-none focus:border-gold-500 focus:ring-1 focus:ring-gold-500/50 transition-all duration-300"
+                              className="w-full bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 rounded-lg px-4 py-4 text-slate-900 dark:text-white placeholder-slate-400"
                               placeholder="John Doe"
                           />
                       </div>
@@ -165,7 +166,7 @@ const Contact: React.FC = () => {
                               required
                               value={formState.email}
                               onChange={handleChange}
-                              className="w-full bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 rounded-lg px-4 py-4 text-slate-900 dark:text-white placeholder-slate-400 dark:placeholder-slate-700 focus:outline-none focus:border-gold-500 focus:ring-1 focus:ring-gold-500/50 transition-all duration-300"
+                              className="w-full bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 rounded-lg px-4 py-4 text-slate-900 dark:text-white placeholder-slate-400"
                               placeholder="john@example.com"
                           />
                       </div>
@@ -179,13 +180,13 @@ const Contact: React.FC = () => {
                               rows={4}
                               value={formState.message}
                               onChange={handleChange}
-                              className="w-full bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 rounded-lg px-4 py-4 text-slate-900 dark:text-white placeholder-slate-400 dark:placeholder-slate-700 focus:outline-none focus:border-gold-500 focus:ring-1 focus:ring-gold-500/50 transition-all duration-300 resize-none"
+                              className="w-full bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 rounded-lg px-4 py-4 text-slate-900 dark:text-white placeholder-slate-400"
                               placeholder="How can I help you today?"
                           ></textarea>
                       </div>
 
                       {status === 'error' && (
-                          <div className="flex items-center gap-2 text-red-500 dark:text-red-400 text-sm bg-red-50 dark:bg-red-950/20 p-4 rounded-lg border border-red-200 dark:border-red-900/50 animate-in fade-in slide-in-from-top-2">
+                          <div className="flex items-center gap-2 text-red-500 dark:text-red-400 text-sm bg-red-50 dark:bg-red-950/20 p-4 rounded-lg border border-red-200 dark:border-red-900/50">
                               <AlertCircle size={18} />
                               <span>Something went wrong. Please check your connection.</span>
                           </div>
@@ -194,7 +195,7 @@ const Contact: React.FC = () => {
                       <button
                           type="submit"
                           disabled={status === 'submitting'}
-                          className="w-full bg-gradient-to-r from-slate-900 to-slate-800 dark:from-white dark:to-slate-200 text-white dark:text-slate-950 font-bold py-4 rounded-lg hover:from-slate-800 hover:to-slate-700 dark:hover:from-slate-200 dark:hover:to-white transition-all flex items-center justify-center gap-2 disabled:opacity-70 disabled:cursor-not-allowed transform active:scale-[0.98] shadow-lg hover:shadow-xl"
+                          className="w-full bg-gradient-to-r from-slate-900 to-slate-800 dark:from-white dark:to-slate-200 text-white dark:text-slate-950 font-bold py-4 rounded-lg hover:from-slate-800 hover:to-slate-600 transition-colors flex items-center justify-center gap-3"
                       >
                           {status === 'submitting' ? (
                               <>
