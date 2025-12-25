@@ -102,7 +102,7 @@ const Contact: React.FC = () => {
 
             <div className="flex flex-col sm:flex-row gap-6 items-start sm:items-center pt-8 border-t border-slate-200 dark:border-slate-900 transition-colors">
                 <div className="flex gap-4">
-                    <a href="#" className="w-12 h-12 rounded-full bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 flex items-center justify-center text-slate-500 dark:text-slate-400 transition-colors">
+                    <a href="https://www.linkedin.com/in/mitesh-gupta-b05180333?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="w-12 h-12 rounded-full bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 flex items-center justify-center text-slate-500 dark:text-slate-400 transition-colors">
                         <Linkedin size={20} className="group-hover:scale-110 transition-transform" />
                     </a>
                     <a href="https://www.instagram.com/mg170_/" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 flex items-center justify-center text-slate-500 dark:text-slate-400 transition-colors">
