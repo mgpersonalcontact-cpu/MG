@@ -5,12 +5,12 @@ import { ExperienceItem, EducationItem } from '../types';
 const experiences: ExperienceItem[] = [
   {
     id: '1',
-    role: 'Owner & Franchise Manager',
+    role: 'Worked as agent in tata AIA life insurance',
     company: 'TATA AIA Life Insurance',
     period: '2022 - 2024',
     description: [
-      'Managed a portfolio of 18 clients with personalized financial planning.',
-      'Gained substantial practical exposure in the live market (3.5 years total experience).',
+      'Managed portfolio of clients with personalized financial planning',
+      'Gained substantial practical exposure in the live market',
     ]
   },
   {
@@ -35,20 +35,11 @@ const experiences: ExperienceItem[] = [
   },
   {
     id: '4',
-    role: 'Sales Executive',
-    company: 'General Health Insurance',
-    period: 'Previous Role',
-    description: [
-      'Specialized in health insurance products and client advisory.'
-    ]
-  },
-  {
-    id: '5',
     role: 'Intern',
     company: 'Content Creation',
     period: 'Internship',
     description: [
-      'Focused on financial content strategy and engagement.'
+      'Focused on content strategy and engagement.'
     ]
   }
 ];
