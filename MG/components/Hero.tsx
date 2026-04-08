@@ -91,8 +91,8 @@ const Hero: React.FC = () => {
               {/* Stats Strip */}
               <div className="grid grid-cols-3 gap-8 pt-12 border-t border-slate-200 dark:border-slate-800/50 transition-colors">
                 <div className="space-y-1">
-                  <div className="text-3xl font-serif font-bold text-slate-900 dark:text-white transition-colors">30%</div>
-                  <div className="text-xs text-slate-500 uppercase tracking-wider font-medium">ROI (2023)</div>
+                  <div className="text-3xl font-serif font-bold text-slate-900 dark:text-white transition-colors">22%</div>
+                  <div className="text-xs text-slate-500 uppercase tracking-wider font-medium">ROI (2025)</div>
                 </div>
                 <div className="space-y-1">
                   <div className="text-3xl font-serif font-bold text-slate-900 dark:text-white transition-colors">800<span className="text-gold-500">+</span></div>
