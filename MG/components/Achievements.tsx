@@ -37,9 +37,9 @@ const Achievements: React.FC = () => {
               </div>
               <div className="mt-8">
                 <div className="text-6xl md:text-7xl font-bold text-slate-900 dark:text-white mb-2 tracking-tight group-hover:scale-105 transition-transform duration-500 origin-left">
-                  30<span className="text-green-500">%</span>
+                  22<span className="text-green-500">%</span>
                 </div>
-                <h3 className="text-xl font-bold text-slate-800 dark:text-slate-200 mb-2 transition-colors">Annual ROI (2023)</h3>
+                <h3 className="text-xl font-bold text-slate-800 dark:text-slate-200 mb-2 transition-colors">Annual ROI (2025)</h3>
                 <p className="text-slate-600 dark:text-slate-400 transition-colors">
                   Outperformed major indices through strategic derivatives trading and technical analysis in a volatile market environment.
                 </p>
